@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        header .get-started {
+            padding: 8px 16px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            text-align: center;
+            background-color: #fef4eb;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .cta {
+            text-align: center;
+        }
+
+        .cta a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #000;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Squarespace</div>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#domain">Domain</a>
+            <a href="#templates">Templates</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a href="#" class="get-started">Get Started</a>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1>A website makes it real</h1>
+        <p>Get your free website trial today. No credit card required!</p>
+        <button>Get Started</button>
+    </section>
+
+    <section id="domain">
+        <h2 class="section-title">Find a domain name for your website</h2>
+        <div class="content">
+            <p>Check domain name availability using our AI-powered domain search tool to get started.</p>
+            <div class="cta">
+                <a href="#">Search for a domain</a>
+                <a href="#">Learn more about Domains</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="templates">
+        <h2 class="section-title">Website templates for every purpose</h2>
+        <div class="content">
+            <p>Start with a flexible designer template or build your own, then customize to fit your style and professional needs using our drag-and-drop website builder.</p>
+            <div class="cta">
+                <a href="#">Explore all templates</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2 class="section-title">Grow your business online</h2>
+        <div class="content">
+            <p>Create an online store, schedule appointments, or sell your services—all on a single platform.</p>
+            <div class="cta">
+                <a href="#">Explore Selling</a>
+                <a href="#">Explore Scheduling</a>
+                <a href="#">Explore Content & Memberships</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2024 Squarespace. All rights reserved.</p>
+    </footer>
+</body>
+</html>
