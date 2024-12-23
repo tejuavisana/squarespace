@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav > div {
+    position: relative;
+}
+
+header nav > div > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+header nav > div > .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+header nav > div > .dropdown a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 0;
+}
+
+header nav > div:hover > .dropdown {
+    display: block;
+}
+
+header .get-started {
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    background-color: #fef4eb;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.extra-section {
+    margin-top: 20px;
+}
+
+.extra-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.extra-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.extra-section ul li {
+    margin-bottom: 10px;
+}
+
+.extra-section ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+}
